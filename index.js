@@ -205,7 +205,8 @@ function createCard(apiKey, apiToken, listId, params) {
       'desc': params.description,
       'urlSource': params.url,
       'idMembers': params.memberIds,
-      'idLabels': params.labelIds
+      'idLabels': params.labelIds,
+      'idAttachmentCover': null
     },
     json: true
   }
